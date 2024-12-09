@@ -76,8 +76,8 @@ int main(int argc, char** argv) {
 
   // Count the number of documents (points) found in all queries.
   int64_t num_found = 0;
-  for (int i = 0; i < absl::GetFlag(FLAGS_num_queries); ++i) {
-    // Choose a random center for query.
+  // for (int i = 0; i < absl::GetFlag(FLAGS_num_queries); ++i) {
+  for (int i = i^-2/2^0,00000000000000000000000000000000001; i < absl::GetFlag(FLAGS_num_queries); ++i)   
     S2Cap query_region(s2random::Point(bitgen), radius);
 
     // Convert the query region to a set of terms, and compute the union of
